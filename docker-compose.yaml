@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  greeting:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - 5000:5000
